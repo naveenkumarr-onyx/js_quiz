@@ -1,0 +1,25 @@
+body{
+    background: #41295a !important;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #2F0743, #41295a);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #2F0743, #41295a); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+li::marker{
+    color:black!important ;
+}
+.col-md-7 {
+    margin-top: 150px;
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+}
+input,label{
+    margin: 10px;
+    font-size: 20px;
+    font-weight: bold;
+}
+.text-center{
+    background-color: skyblue;
+    opacity: 0.9;
+    border-top-left-radius: 15px;
+    border-bottom-right-radius:20px ;
+}
